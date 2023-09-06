@@ -1,3 +1,4 @@
+
 [
   {
     "name": "Inception",
@@ -145,5 +146,13 @@
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "rating": 8.4,
     "imdbLink": "https://www.imdb.com/title/tt4154756/"
+  },
+  {
+    "name": "1917",
+    "yearOfRelease": 2019,
+    "genre": ["Drama", "War"],
+    "rating": 8.3,
+    "imdbLink": "https://www.imdb.com/title/tt8579674/"
   }
 ]
+
