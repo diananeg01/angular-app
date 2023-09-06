@@ -1,0 +1,72 @@
+<nz-card>
+  <form nz-form [formGroup]="registrationForm" (ngSubmit)="submitForm()">
+    <nz-form-item>
+      <nz-form-label>Email</nz-form-label>
+      <nz-form-control>
+        <input nz-input formControlName="email" />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label>Password</nz-form-label>
+      <nz-form-control>
+        <nz-input-group nzPrefixIcon="lock" [nzSuffix]="suffixTemplate">
+          <input
+            [type]="passwordVisible ? 'text' : 'password'"
+            nz-input
+            placeholder="Password"
+            formControlName="password"
+          />
+        </nz-input-group>
+        <ng-template #suffixTemplate>
+              <span
+                nz-icon
+                [nzType]="passwordVisible ? 'eye-invisible' : 'eye'"
+                (click)="passwordVisible = !passwordVisible"
+              ></span>
+        </ng-template>
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label>Confirm Password</nz-form-label>
+      <nz-form-control>
+        <nz-input-group nzPrefixIcon="lock" [nzSuffix]="suffixTemplate">
+          <input
+            [type]="passwordVisible ? 'text' : 'password'"
+            nz-input
+            placeholder="Password"
+            formControlName="confirmPassword"
+          />
+        </nz-input-group>
+        <ng-template #suffixTemplate>
+              <span
+                nz-icon
+                [nzType]="passwordVisible ? 'eye-invisible' : 'eye'"
+                (click)="passwordVisible = !passwordVisible"
+              ></span>
+        </ng-template>
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label>First Name</nz-form-label>
+      <nz-form-control>
+        <input nz-input formControlName="firstName" />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label>Last Name</nz-form-label>
+      <nz-form-control>
+        <input nz-input formControlName="lastName" />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-control>
+        <button nz-button nzType="primary" [disabled]="!registrationForm.valid">Register</button>
+      </nz-form-control>
+    </nz-form-item>
+  </form>
+</nz-card>
