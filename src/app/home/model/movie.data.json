@@ -1,0 +1,52 @@
+
+[
+  {
+    "name": "Inception",
+    "yearOfRelease": 2010,
+    "genre": ["Sci-Fi"],
+    "rating": 8.8,
+    "imdbLink": "https://www.imdb.com/title/tt1375666/"
+  },
+  {
+    "name": "The Dark Knight",
+    "yearOfRelease": 2008,
+    "genre": ["Action", "Crime", "Drama"],
+    "rating": 9.0,
+    "imdbLink": "https://www.imdb.com/title/tt0468569/"
+  },
+  {
+    "name": "Pulp Fiction",
+    "yearOfRelease": 1994,
+    "genre": ["Crime", "Drama"],
+    "rating": 8.9,
+    "imdbLink": "https://www.imdb.com/title/tt0110912/"
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "yearOfRelease": 1994,
+    "genre": ["Drama"],
+    "rating": 9.3,
+    "imdbLink": "https://www.imdb.com/title/tt0111161/"
+  },
+  {
+    "name": "Fight Club",
+    "yearOfRelease": 1999,
+    "genre": ["Drama"],
+    "rating": 8.8,
+    "imdbLink": "https://www.imdb.com/title/tt0137523/"
+  },
+  {
+    "name": "Forrest Gump",
+    "yearOfRelease": 1994,
+    "genre": ["Drama", "Romance"],
+    "rating": 8.8,
+    "imdbLink": "https://www.imdb.com/title/tt0109830/"
+  },
+  {
+    "name": "The Matrix",
+    "yearOfRelease": 1999,
+    "genre": ["Action", "Sci-Fi"],
+    "rating": 8.7,
+    "imdbLink": "https://www.imdb.com/title/tt0133093/"
+  }
+]
